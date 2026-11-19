@@ -1,0 +1,64 @@
+
+:orphan:
+
+.. _sphx_glr_auto_examples_sg_execution_times:
+
+
+Computation times
+=================
+**102:18.182** total execution time for 10 files **from auto_examples**:
+
+.. container::
+
+  .. raw:: html
+
+    <style scoped>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://cdn.datatables.net/1.13.6/css/dataTables.bootstrap5.min.css" rel="stylesheet" />
+    </style>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/dataTables.bootstrap5.min.js"></script>
+    <script type="text/javascript" class="init">
+    $(document).ready( function () {
+        $('table.sg-datatable').DataTable({order: [[1, 'desc']]});
+    } );
+    </script>
+
+  .. list-table::
+   :header-rows: 1
+   :class: table table-striped sg-datatable
+
+   * - Example
+     - Time
+     - Mem (MB)
+   * - :ref:`sphx_glr_auto_examples_plot_dcl_vs_simclr.py` (``plot_dcl_vs_simclr.py``)
+     - 66:44.505
+     - 1251.9
+   * - :ref:`sphx_glr_auto_examples_plot_metrics_callback.py` (``plot_metrics_callback.py``)
+     - 09:58.602
+     - 2413.6
+   * - :ref:`sphx_glr_auto_examples_plot_yaware_openbhb.py` (``plot_yaware_openbhb.py``)
+     - 05:24.729
+     - 123.6
+   * - :ref:`sphx_glr_auto_examples_plot_model_probing.py` (``plot_model_probing.py``)
+     - 05:12.574
+     - 230.6
+   * - :ref:`sphx_glr_auto_examples_plot_barlowtwins_openbhb.py` (``plot_barlowtwins_openbhb.py``)
+     - 05:11.945
+     - 124.0
+   * - :ref:`sphx_glr_auto_examples_plot_ijepa_medmnist.py` (``plot_ijepa_medmnist.py``)
+     - 04:56.714
+     - 665.6
+   * - :ref:`sphx_glr_auto_examples_plot_openbhb.py` (``plot_openbhb.py``)
+     - 02:21.987
+     - 1419.7
+   * - :ref:`sphx_glr_auto_examples_plot_openbhb_hydra.py` (``plot_openbhb_hydra.py``)
+     - 01:19.429
+     - 180.4
+   * - :ref:`sphx_glr_auto_examples_plot_simclr_mnist.py` (``plot_simclr_mnist.py``)
+     - 01:07.697
+     - 144.6
+   * - :ref:`sphx_glr_auto_examples_plot_comm_openmind.py` (``plot_comm_openmind.py``)
+     - 00:00.000
+     - 0.0
